@@ -1,0 +1,10 @@
+git config credential.helper store
+
+git add .
+git commit -a -m "message"
+git push 
+
+git submodule add  https://github.com/rdorbolo/esp32-ttgo-display.git
+git commit -m "added submodule"
+git push
+
